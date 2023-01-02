@@ -513,7 +513,8 @@ h6 {
     transition: all 0.3s ease-in-out;
     font-size: 36px;
     line-height: 1;
-    color: #2487ce;
+    color: #8CC63F/*#2487ce*/
+    ;
 }
 
 #hero .icon-box:hover {
