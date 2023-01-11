@@ -2,122 +2,259 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coconnet Web</title>
-  <link rel="stylesheet" href="assets/css/register.css">
-  <link href="https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Telkomsat Coconnet</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/hotspot.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- botton to top only -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <!-- Fitures & Socmed Icon -->
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+  <!-- Home Icon -->
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <!-- Bikin lebih jauh antara availability & fitures -->
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: OnePage - v4.9.2
+  * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-  <nav>
-    <input id="nav-toggle" type="checkbox">
-    <div class="logo">
-      <a href="https://www.coconnet.co.id/"><img src="assets/img/coconnet.png" alt="Logo Coconnet" style="width: 200px;"></a>
-    </div>
-    <ul class="links">
-      <li><a href="index.html" class="home">Home</a></li>
-      <!-- <li><a href="#product" class="product">Product</a></li> -->
-      <li><a href="index.html#faq" class="faq">FAQ</a></li>
-      <!-- <li><a href="#partners" class="partners">Partners</a></li> -->
-      <!-- <li><a href="#contact" class="contact">Contact</a></li> -->
-      <li><a href="login.html" class="signin">Sign In</a></li>
-      <li><a href="#signup" class="signup">Sign Up</a></li>
-    </ul>
-    <label for="nav-toggle" class="icon-burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </label>
-  </nav>
-  <div class="container">
-    <div id="navarea" class="navarea"></div>
-    <div id="leftside" class="leftside">
-      <form name="login" class="login-form form">
-        <div class="form-caption">Sign Up</div>
-        <div class="login-form2">
-          <div class="fl-name">
-            <input type="text" class="input-name" name="username" placeholder="First Name">
-            <input type="text" class="input-name" name="username" placeholder="Last Name">
-          </div>
-          <div class="fl-name">
-            <input type="text" class="input-name" name="username" placeholder="Email Address" aria-describedby="username-field">
-            <input type="text" class="input-name" name="username" placeholder="Phone Number" aria-describedby="username-field">
-          </div>
-          <div class="fl-name">
-            <input type="text" class="input-name" name="username" placeholder="NIK" aria-describedby="username-field">
-            <input type="text" class="input-name" name="username" placeholder="NPWP" aria-describedby="username-field">
-          </div>
-          <div class="fl-name">
-            <input type="password" class="input-name" name="password" placeholder="Password" aria-describedby="basic-addon1">
-            <input type="password" class="input-name" name="password" placeholder="Password Verify" aria-describedby="basic-addon1">
-          </div>
-          <input type="submit" class="submit-login" value="Register">
-        </div>
-        <p class="powered">Powered by <a href="https://www.telkomsat.co.id/">Telkomsat</a></p>
-      </form>
-    </div>
 
-    <div id="rightside" class="rightside">
-      <a href="https://www.coconnet.co.id/"><img src="assets/img/banner.png" class="banner" alt="Banner"></a>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <!-- <h1 class="logo"><a href="index.html">OnePage</a></h1> -->
+      <a href="https://www.coconnet.co.id/"><img src="assets/img/coconnet.png" alt="Logo Coconnet" style="width: 200px;"></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services">Features</a></li>
+          <!-- <li><a class="nav-link scrollto o" href="#portfolio">Portfolio</a></li> -->
+          <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
+          <li><a class="nav-link scrollto" href="index.html#pricing">Package</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li> -->
+          <li><a class="nav-link scrollto" href="https://www.telkomsat.co.id/id/hubungi-kami">Contact</a></li>
+          <li><a class="getstarted scrollto" href="login.html">Login</a></li>
+          <li><a class="getstarted scrollto" href="register.html">Sign-up</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
     </div>
-    <footer id="footer" class="footer">
-      <section class="footer-header">
-        <div class="footer-caption">Contact Us :</div>
-        <div class="footer-logo">
-          <a href="https://www.coconnet.co.id/"><img src="assets/img/coconnet.png" alt="Logo Coconnet" style="width: 150px;"></a>
+  </header>
+  <!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Sign Up</h2>
         </div>
-      </section>
-      <section class="footer-row">
-        <div class="footer-col">
-          <div class="footer-subcaption">Call Center</div>
-          <div>
-            <ul class="footer-ul">
-              <li><a href="#">1500832</a></li>
-            </ul>
-            <ul class="footer-ul">
-              <li>
-                <a href="#"></a>
-              </li>
-            </ul>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <div id="leftside" class="leftside">
+              <form name="login" class="regis-form form" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()" $(endif)>
+                <div class="form-caption">Sign Up</div>
+                <div class="regis-form2">
+                  <div class="fl-name">
+                    <input type="text" class="input-name" name="username" placeholder="First Name">
+                    <input type="text" class="input-name" name="username" placeholder="Last Name">
+                  </div>
+                  <div class="fl-name">
+                    <input type="text" class="input-name" name="username" placeholder="Email Address" aria-describedby="username-field">
+                    <input type="text" class="input-name" name="username" placeholder="Phone Number" aria-describedby="username-field">
+                  </div>
+                  <div class="fl-name">
+                    <input type="text" class="input-name" name="username" placeholder="NIK" aria-describedby="username-field">
+                    <input type="text" class="input-name" name="username" placeholder="NPWP" aria-describedby="username-field">
+                  </div>
+                  <div class="fl-name">
+                    <input type="password" class="input-name" name="password" placeholder="Password" aria-describedby="basic-addon1">
+                    <input type="password" class="input-name" name="password" placeholder="Password Verify" aria-describedby="basic-addon1">
+                  </div>
+                  <input type="submit" class="submit-login" value="Register">
+                </div>
+                <p class="powered">Powered by <a href="https://www.telkomsat.co.id/">Telkomsat</a></p>
+              </form>
+            </div>
+          </div>
+
+
+          <!-- <div class="login-form2">
+                <div class="fl-name">
+                  <input type="text" class="input-name" name="username" placeholder="First Name">
+                  <input type="text" class="input-name" name="username" placeholder="Last Name">
+                </div>
+                <div class="fl-name">
+                  <input type="text" class="input-name" name="username" placeholder="Email Address" aria-describedby="username-field">
+                  <input type="text" class="input-name" name="username" placeholder="Phone Number" aria-describedby="username-field">
+                </div>
+                <div class="fl-name">
+                  <input type="text" class="input-name" name="username" placeholder="NIK" aria-describedby="username-field">
+                  <input type="text" class="input-name" name="username" placeholder="NPWP" aria-describedby="username-field">
+                </div>
+                <div class="fl-name">
+                  <input type="password" class="input-name" name="password" placeholder="Password" aria-describedby="basic-addon1">
+                  <input type="password" class="input-name" name="password" placeholder="Password Verify" aria-describedby="basic-addon1">
+                </div>
+                <input type="submit" class="submit-login" value="Register">
+              </div> -->
+
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <div id="rightside" class="rightside">
+              <a href="https://www.coconnet.co.id/"><img src="assets/img/banner.png" class="banner" alt="Banner"></a>
+            </div>
           </div>
         </div>
-        <div class="footer-col">
-          <div class="footer-subcaption">SMS Service</div>
-          <div>
-            <ul class="footer-ul">
-              <li><a href="#">0811-1666-727</a></li>
-              <li><a href="#">0812-2220-9977</a></li>
+
+      </div>
+    </section>
+    <!-- End About Section -->
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <!-- footer up -->
+
+    <!-- <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>OnePage</h3>
+            <p>
+              A108 Adam Street <br> New York, NY 535022<br> United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
-        </div>
-        <div class="footer-col">
-          <div class="footer-subcaption">Whatsapp</div>
-          <div>
-            <ul class="footer-ul">
-              <li><a href="#">0811-974-9971 (Sales)</a></li>
-              <li><a href="#">0811-9699-869 (Care Center)</a></li>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
           </div>
-        </div>
-        <div class="footer-col">
-          <div class="footer-subcaption">Email</div>
-          <div>
-            <ul class="footer-ul">
-              <li><a href="#">sales.coconnet@telkomsat.co.id</a></li>
-            </ul>
-            <ul class="footer-ul">
-              <li>
-                <a href="#"></a>
-              </li>
-            </ul>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
           </div>
+
         </div>
-      </section>
-      <div class="copyright">Copyright &copy 2022 &nbsp <a href="https://www.telkomsat.co.id/">PT Telkom Satelit Indonesia</a></div>
-    </footer>
-  </div>
+      </div>
+    </div> -->
+
+    <!-- end footer up -->
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          2022 &copy; Copyright <strong><span>Telkomsat</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BSMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 

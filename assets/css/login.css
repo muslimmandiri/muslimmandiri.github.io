@@ -174,7 +174,7 @@ a.tbl-signup:hover {
 
 .login-form2 {
   width: 300px;
-  height: 235px;
+  height: 265px;
   background: white;
   margin: 0px auto;
   padding: 10px 20px;
@@ -192,7 +192,6 @@ a.tbl-signup:hover {
   margin: 12px auto;
   background: #fff;
   border: 0px;
-  padding: 5px;
   padding-left: 30px;
   padding-right: 30px;
   font-size: 16px;
@@ -212,7 +211,6 @@ a.tbl-signup:hover {
   margin: 5px auto;
   background: #fff;
   border: 0px;
-  padding: 5px;
   padding-left: 30px;
   padding-right: 30px;
   font-size: 16px;
@@ -228,12 +226,12 @@ a.tbl-signup:hover {
   display: block;
   background-image: linear-gradient(#8DC73F, green);
   box-shadow: 2px 2px 4px black;
-  width: 292px;
-  padding: 10px;
+  width: 235px;
+  height: 25px;
+  margin: 10px auto;
   cursor: pointer;
   color: #fff;
   border: 0px;
-  margin: 10px 0px;
   border-radius: 30px;
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
