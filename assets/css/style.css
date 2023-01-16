@@ -2014,10 +2014,11 @@ section {
 
 /* ==============( Left Side )=============== */
 
-.leftside {
-  /* margin-top: 30px;
-  margin-bottom: 30px; */
-}
+
+/* .leftside {
+  margin-top: 30px;
+  margin-bottom: 30px;
+} */
 
 .login-form {
   display: grid;
@@ -2035,7 +2036,7 @@ section {
 .regis-form {
   display: grid;
   justify-content: center;
-  width: 480px;
+  width: 460px;
   height: 410px;
   background: rgb(199, 199, 199);
   box-shadow: 4px 4px 10px green;
